@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+.container, .container1{
+    position: absolute;
+    background: #bbbbbb;
+    border-radius: 1rem;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar, .navbar1{
+    margin: auto;
+    padding: 0.5rem 1.5rem;
+}
+
+
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body { 
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-size: 85%;
+    margin-left: 2em;
+    width: 420px;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+h1 {     
+    font-size: 140%;
+    color: teal;
+    margin-bottom: .5em;    
+}
+h2 {     
+    font-size: 120%;
+    color: teal;
+    margin-bottom: .5em;   
+}
+label {
+    float: left;
+    width: 7em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"] {  /* An attribute selector */
+    width: 15em;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+input[type="date"]{
+    width: 15.2em;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+span {
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;    
+}
+
+br {
+    clear: both;
+}
+
+/* The styles for the classes */
+.pad_top {
+    padding-top: 0.25em;
+    display: block;
+
+}
+.margin_left {
+    margin-left: 0.5em;
+}
+
+#submit {
+    display: block;
+    margin: auto;
+}
+
