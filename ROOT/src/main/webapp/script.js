@@ -1,5 +1,3 @@
-window.onload = function() {isImageClicked = false;}
-
 const track = document.getElementById("images");
 
 const handleOnDown = e => track.dataset.mouseDownAt = e.clientX;
@@ -46,6 +44,7 @@ for(const image of track.getElementsByClassName("image")) {
         const link = this.dataset.link;
         if (link) {
             window.location.href = link; // Navigates to the link when an image is clicked
+            isImageClicked = false;
         } else {
             showNotification(e, scrambleText('notification', "There's no link yet, be patient!", 25));
         }
